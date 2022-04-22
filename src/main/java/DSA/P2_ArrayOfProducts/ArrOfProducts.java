@@ -45,7 +45,8 @@ public class ArrOfProducts {
         return map;
     }
 
-    public static ArrayList<Integer> findResultArr(int[] givenArr, HashMap<Integer, Integer> map, HashMap<Integer, Integer> mapRev) {
+    public static
+    ArrayList<Integer> findResultArr(int[] givenArr, HashMap<Integer, Integer> map, HashMap<Integer, Integer> mapRev) {
         ArrayList<Integer> result = new ArrayList<>();
 
         for (int i = 0; i < givenArr.length; i++) {
