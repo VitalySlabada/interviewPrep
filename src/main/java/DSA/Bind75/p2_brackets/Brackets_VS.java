@@ -16,7 +16,6 @@ public class Brackets_VS {
         for (char each : arr) {
             if (each == '{' || each == '[' || each == '(') {
                 stack.push(each);
-                continue;
             } else {
                 if (stack.isEmpty()) return false;
                 char popChar = stack.pop();
